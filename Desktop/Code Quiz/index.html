@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Coding Quiz</h1>
+        <p id="question"></p>
+        <ul id="choices">
+            <li class="choice" onclick="checkAnswer(0)"></li>
+            <li class="choice" onclick="checkAnswer(1)"></li>
+            <li class="choice" onclick="checkAnswer(2)"></li>
+            <li class="choice" onclick="checkAnswer(3)"></li>
+        </ul>
+        <p id="result"></p>
+        <p id="timer">Time: <span id="countdown">60</span> seconds</p>
+        <div id= "initals-area">
+            <input id= "intials" type="text">
+            <button id="submit">
+                Submit Initals
+            </button>
+        </div>
+    </div>
+    <div id="Highscores">
+        <p>Highscores</p>
+        <button id="clear">Clear Highscores</button>
+        <button id="play-again">Play Again</button>
+    </div>
+    <script src="scrpit.js"></script>
+</body>
+</html>
